@@ -1,0 +1,18 @@
+{
+  "packages": [
+    "luci",
+    "luci-compat",
+    "shadow-chpasswd",
+    "openssh-sftp-server",
+    "bind-dig",
+    "curl",
+    "libustream-openssl",
+    "-dnsmasq",
+    "dnsmasq-full"
+  ],
+  "files": [
+    "files",
+    "custom-base.sh"
+  ],
+  "disabled_services": []
+}

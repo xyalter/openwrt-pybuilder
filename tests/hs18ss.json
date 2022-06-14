@@ -1,0 +1,12 @@
+{
+  "version": "19.07.8",
+  "arch": "x86",
+  "board": "64",
+  "includes": ["base", "ss"],
+  "packages": [
+    "luci-i18n-base-zh-cn",
+    "luci-i18n-firewall-zh-cn",
+    "bind-nslookup"
+  ],
+  "disabled_services": []
+}

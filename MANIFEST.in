@@ -1,0 +1,7 @@
+include LICENSE.txt
+include README.rst
+recursive-include docs *
+recursive-include tests *
+recursive-include openwrt_pybuilder/resources *
+global-exclude __pycache__
+global-exclude *.py[cod]
