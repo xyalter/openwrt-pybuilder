@@ -1,0 +1,21 @@
+{
+  "version": "19.07.8",
+  "arch": "x86",
+  "board": "64",
+  "includes": ["base"],
+  "packages": [
+    "luci",
+    "luci-compat",
+    "curl",
+    "-dnsmasq",
+    "dnsmasq-full",
+    "luci-ssl-nginx"
+  ],
+  "files": ["files/"],
+  "disabled_services": [
+    "softethervpnbridge",
+    "softethervpnclient",
+    "softethervpnserver",
+    "uhttpd"
+  ]
+}
